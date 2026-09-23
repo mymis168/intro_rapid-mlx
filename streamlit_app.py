@@ -76,7 +76,7 @@ code, pre, .stCode { font-family: 'DM Mono', monospace !important; }
 
 
 st.markdown(
-    '<div class="topbar"><div class="brand">美亮資訊 <em>／</em> 顧問服務</div><div style="display:flex;align-items:center;gap:1rem"><div class="topmeta">LOCAL AI · ENTERPRISE MODEL DELIVERY</div><a class="main-link" href="http://localhost:8501" target="_self">Rapid-MLX 技術導覽 ↗</a></div></div>',
+    '<div class="topbar"><div class="brand">美亮資訊 <em>／</em> 顧問服務</div><div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap"><div class="topmeta">LOCAL AI · ENTERPRISE MODEL DELIVERY</div><a class="main-link" href="http://localhost:8501" target="_self">Rapid-MLX 技術導覽 ↗</a><a class="main-link" href="http://localhost:8503" target="_self">Hugging Face CLI 指南 ↗</a></div></div>',
     unsafe_allow_html=True,
 )
 
@@ -84,14 +84,34 @@ st.markdown(
     """
 <div class="hero">
   <div class="hero-orbit"></div>
-  <div class="eyebrow">Apple Silicon × Enterprise AI</div>
-  <h1>讓模型，<br>真正落地。</h1>
-  <div class="hero-copy">從 Apple M-Chip 的本地推理環境，到企業資料、RAG 與專屬 SLM 訓練，美亮資訊顧問有限公司協助企業把 AI 從概念驗證推進到可使用、可管理、可持續優化的內部方案。</div>
-  <div class="hero-kicker">M1 — M4 / PRIVATE BY DESIGN</div>
+    <div class="eyebrow">Professional AI Deployment &amp; Advisory</div>
+    <h1>專業落地建置<br>與部署專業服務</h1>
+    <div class="hero-copy">美亮資訊顧問有限公司提供從模型選型、環境建置、資料整合到正式部署的專業技術顧問團隊，協助企業將 LLM、Audio、Video 與 Text-Speech-Text 應用導入實際業務流程。</div>
+    <div class="hero-kicker">LLM · AUDIO · VIDEO · TEXT-SPEECH-TEXT</div>
 </div>
 """,
     unsafe_allow_html=True,
 )
+
+st.markdown('<div class="section-label">00 / 專業技術顧問團隊</div>', unsafe_allow_html=True)
+st.header("從模型能力，到企業真正用得起來的服務")
+st.markdown(
+        """
+        我們的顧問團隊涵蓋模型訓練、推理部署、資料工程、語音技術、影音生成與企業系統整合，
+        依照企業的資料敏感度、硬體條件、使用情境與預算，規劃可落地、可維運、可持續擴充的 AI 方案。
+        """
+)
+
+advisor_cols = st.columns(4)
+advisor_services = [
+        ("LLM", "大型語言模型", "模型部署、微調、Prompt、Agent、RAG 與企業知識系統整合。"),
+        ("AUDIO", "語音與聲音服務", "語音辨識、文字轉語音、語音分析與企業語音流程導入。"),
+        ("VIDEO", "影音模型服務", "影像理解、影片分析、生成式影音與多媒體工作流建置。"),
+        ("T-S-T", "Text-Speech-Text", "文字、語音雙向轉換，打造客服、助理、會議與現場作業的自然互動入口。"),
+]
+for col, (label, title, body) in zip(advisor_cols, advisor_services):
+        with col:
+                st.markdown(f'<div class="service-card"><div class="num">{label} / ADVISORY</div><h3>{title}</h3><p>{body}</p></div>', unsafe_allow_html=True)
 
 st.markdown('<div class="section-label">01 / 我們提供什麼</div>', unsafe_allow_html=True)
 st.header("企業落地模型的完整路徑")
