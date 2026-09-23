@@ -195,4 +195,4 @@ commands = [
 ]
 st.dataframe([{"指令": command, "功能": description} for command, description in commands], use_container_width=True, hide_index=True)
 
-st.markdown('<div class="footer">Hugging Face CLI 使用指南 · 現代 CLI 指令為 <code>hf</code>；舊版文件可能使用 <code>huggingface-cli</code>，請優先以目前套件版本的 <code>hf --help</code> 為準。</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Hugging Face CLI 使用指南 · 現代 CLI 指令為 <code>hf</code>；舊版文件可能使用 <code>huggingface-cli</code>，請優先以目前套件版本的 <code>hf --help</code> 為準。<br><br><strong>AI落地服務提供單位</strong><br>美亮資訊顧問有限公司<br>需求洽談：<a href="mailto:mymis168@mymis.tw">mymis168@mymis.tw</a><br>官網：<a href="https://www.mis.com.tw" target="_blank">www.mis.com.tw</a> · <a href="https://www.mymis.tw" target="_blank">www.mymis.tw</a></div>', unsafe_allow_html=True)

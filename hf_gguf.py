@@ -252,4 +252,4 @@ st.dataframe(
     hide_index=True,
 )
 
-st.markdown('<div class="footer">GGUF 模型格式指南 · 內容涵蓋格式、量化、Hugging Face 下載與本地推理工作流；實際轉換參數請以所使用的 llama.cpp、模型卡與推理工具版本為準。</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">GGUF 模型格式指南 · 內容涵蓋格式、量化、Hugging Face 下載與本地推理工作流；實際轉換參數請以所使用的 llama.cpp、模型卡與推理工具版本為準。<br><br><strong>AI落地服務提供單位</strong><br>美亮資訊顧問有限公司<br>需求洽談：<a href="mailto:mymis168@mymis.tw">mymis168@mymis.tw</a><br>官網：<a href="https://www.mis.com.tw" target="_blank">www.mis.com.tw</a> · <a href="https://www.mymis.tw" target="_blank">www.mymis.tw</a></div>', unsafe_allow_html=True)

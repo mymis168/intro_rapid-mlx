@@ -268,4 +268,4 @@ st.dataframe(
     hide_index=True,
 )
 
-st.markdown('<div class="footer">llama.cpp 建置與部署指南 · 實際 CMake flags、CLI 參數與模型支援會隨 llama.cpp commit、CUDA／Metal backend 與模型架構變更，正式部署前請以目標版本的 <code>--help</code> 與 benchmark 結果為準。</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">llama.cpp 建置與部署指南 · 實際 CMake flags、CLI 參數與模型支援會隨 llama.cpp commit、CUDA／Metal backend 與模型架構變更，正式部署前請以目標版本的 <code>--help</code> 與 benchmark 結果為準。<br><br><strong>AI落地服務提供單位</strong><br>美亮資訊顧問有限公司<br>需求洽談：<a href="mailto:mymis168@mymis.tw">mymis168@mymis.tw</a><br>官網：<a href="https://www.mis.com.tw" target="_blank">www.mis.com.tw</a> · <a href="https://www.mymis.tw" target="_blank">www.mymis.tw</a></div>', unsafe_allow_html=True)

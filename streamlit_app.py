@@ -202,4 +202,4 @@ with cols[0]:
 with cols[1]:
     st.markdown('<div class="feature"><h3>適合洽談的起點</h3><p>想在企業內部使用生成式 AI</p><p>需要模型與 ERP / 文件系統整合</p><p>評估 Apple M-Chip、RTX 或 DGX Spark</p><p>規劃團隊 AI 與資料平台教育訓練</p></div>', unsafe_allow_html=True)
 
-st.markdown('<div class="footer">美亮資訊顧問有限公司 · Apple M-Chip / NVIDIA GPU / Enterprise SLM / RAG · 聯絡：mymis168@mymis.tw</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">美亮資訊顧問有限公司 · Apple M-Chip / NVIDIA GPU / Enterprise SLM / RAG · 聯絡：mymis168@mymis.tw<br><br><strong>AI落地服務提供單位</strong><br>美亮資訊顧問有限公司<br>需求洽談：<a href="mailto:mymis168@mymis.tw">mymis168@mymis.tw</a><br>官網：<a href="https://www.mis.com.tw" target="_blank">www.mis.com.tw</a> · <a href="https://www.mymis.tw" target="_blank">www.mymis.tw</a></div>', unsafe_allow_html=True)
