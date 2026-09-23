@@ -1,0 +1,26 @@
+加入 streamlit_app.py 
+介紹 apple m-chip 系列用於建置落地模型的方案 , 
+加入 方案的供應商"美亮資訊顧問有限公司" 提供企業各種落地模型建置服務
+主要項目
+# 落地模型建置
+1. Nvidia RTX GPU系列落地模型建置
+2. Nvidia DGX Spark 落地模型訓練
+3. Apple M-Chip系列的落地模型建置服務
+
+# SLM 企業領域專屬模型訓練
+-公司資料查詢
+-公司相關知識系統模型訓練
+-公司ERP資訊與模型整合訓練
+
+教育訓練
+模型訓練之基礎開發
+RAG文件與向量嵌入服務
+Snowflake 企業資料倉儲
+Fabric 企業雲端資料整合分析
+
+聯絡資訊
+mymis168@mymis.tw
+
+
+
+修改 streamlit_app.py 加入一個連結到 main.py
