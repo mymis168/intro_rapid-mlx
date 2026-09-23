@@ -76,7 +76,7 @@ code, pre, .stCode { font-family: 'DM Mono', monospace !important; }
 
 
 st.markdown(
-    '<div class="topbar"><div class="brand">美亮資訊 <em>／</em> 顧問服務</div><div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap"><div class="topmeta">LOCAL AI · ENTERPRISE MODEL DELIVERY</div><a class="main-link" href="http://localhost:8501" target="_self">Rapid-MLX 技術導覽 ↗</a><a class="main-link" href="http://localhost:8503" target="_self">Hugging Face CLI 指南 ↗</a></div></div>',
+    '<div class="topbar"><div class="brand">美亮資訊 <em>／</em> 顧問服務</div><div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap"><div class="topmeta">LOCAL AI · ENTERPRISE MODEL DELIVERY</div><a class="main-link" href="http://localhost:8501" target="_self">Rapid-MLX 技術導覽 ↗</a><a class="main-link" href="http://localhost:8503" target="_self">Hugging Face CLI 指南 ↗</a><a class="main-link" href="http://localhost:8504" target="_self">GGUF 格式指南 ↗</a><a class="main-link" href="http://localhost:8505" target="_self">llama.cpp 部署指南 ↗</a></div></div>',
     unsafe_allow_html=True,
 )
 
