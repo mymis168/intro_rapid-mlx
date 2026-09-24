@@ -169,7 +169,7 @@ def main() -> None:
         st.caption("Local inference for Apple Silicon")
         st.markdown("[官方文件 ↗](https://rapidmlx.com/docs/)  ·  [GitHub ↗](https://github.com/raullenchai/Rapid-MLX)")
     {"架構總覽":architecture_page,"Chat 模式":chat_page,"Serve 模式":serve_page,"Desktop 操作":desktop_page,"指令速查":commands_page}[page]()
-    st.markdown('<div class="footer">Rapid-MLX Field Guide · 內容依官方 README 與 CLI 文件整理，實際 flags 請以目前安裝版本的 <code>rapid-mlx --help</code> 為準。</div>', unsafe_allow_html=True)
+    st.markdown('<div class="footer">Rapid-MLX Field Guide · 內容依官方 README 與 CLI 文件整理，實際 flags 請以目前安裝版本的 <code>rapid-mlx --help</code> 為準。<br><br><strong>AI落地服務提供單位</strong><br>美亮資訊顧問有限公司<br>需求洽談：<a href="mailto:mymis168@mymis.tw">mymis168@mymis.tw</a><br>官網：<a href="https://www.mis.com.tw" target="_blank">www.mis.com.tw</a> · <a href="https://www.mymis.tw" target="_blank">www.mymis.tw</a></div>', unsafe_allow_html=True)
 
 
 if __name__ == "__main__":

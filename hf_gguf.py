@@ -47,7 +47,7 @@ code,pre,.stCode { font-family:'DM Mono',monospace !important; }
 )
 
 st.markdown(
-    '<div class="topbar"><div class="brand">GGUF <em>／</em> 模型格式指南</div><div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap"><div class="topmeta">MODEL FORMAT · QUANTIZATION · LOCAL INFERENCE</div><a class="nav-link" href="http://localhost:8503" target="_self">Hugging Face CLI ↗</a><a class="nav-link" href="http://localhost:8502" target="_self">美亮資訊方案 ↗</a></div></div>',
+    '<div class="topbar"><div class="brand">GGUF <em>／</em> 模型格式指南</div><div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap"><div class="topmeta">MODEL FORMAT · QUANTIZATION · LOCAL INFERENCE</div></div></div>',
     unsafe_allow_html=True,
 )
 

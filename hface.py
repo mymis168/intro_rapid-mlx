@@ -46,7 +46,7 @@ code,pre,.stCode { font-family:'DM Mono',monospace !important; }
 )
 
 st.markdown(
-    '<div class="topbar"><div class="brand">Hugging Face <em>／</em> CLI 指南</div><div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap"><div class="topmeta">MODEL HUB · DATASET · SPACE</div><a class="nav-link" href="http://localhost:8502" target="_self">回到美亮資訊方案 ↗</a><a class="nav-link" href="http://localhost:8501" target="_self">Rapid-MLX 技術導覽 ↗</a></div></div>',
+    '<div class="topbar"><div class="brand">Hugging Face <em>／</em> CLI 指南</div><div style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap"><div class="topmeta">MODEL HUB · DATASET · SPACE</div></div></div>',
     unsafe_allow_html=True,
 )
 
